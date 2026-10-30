@@ -40,4 +40,4 @@ jobs:
       - name: Upload
         env:
           DEST: ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/var/www/w1n-nz/
-        run: rsync -az --delete --dry-run -v -e "ssh -i ~/.ssh/id_deploy" build/ "$DEST"
+        run: rsync -az --delete -v -e "ssh -i ~/.ssh/id_deploy" build/ "$DEST"
