@@ -1,4 +1,4 @@
-Jack Heyes
+w1n
 2026
 
 A personal website to promote my
